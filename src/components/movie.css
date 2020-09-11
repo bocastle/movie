@@ -1,0 +1,13 @@
+.movie img{
+    position: relative;
+    max-width: 150px;
+    width: 100%;
+    margin-right: 30px;
+    float: left;
+    top: -10px;
+ 
+} 
+
+.movie title{
+    color : "Red"
+}
