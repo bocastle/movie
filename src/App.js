@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import MyComponent from './components/myComponent'; // 컴포넌트 import
 import Movies from './components/movies';
-//import SetTimeOut from './components/setTimeOut';
 // import logo from './logo.svg';
 import './App.css';
 // import { render } from 'react-dom';
@@ -61,10 +60,9 @@ render(){
 class App extends Component {
   render() {
     return (
-      <div>
+      <div className="App">
         <MyComponent /> {/* 컴포넌트 배치 */}
         <Movies />
-        {/* <SetTimeOut /> */}
       </div>
     )
   }

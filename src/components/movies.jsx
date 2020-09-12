@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'react-native-axios';
-import { Card, Button, CardTitle, CardText, CardImg, CardSubtitle , Row, Col} from 'reactstrap';
+import { Card, CardTitle, CardText, CardImg, CardSubtitle , Row, Col} from 'reactstrap';
 import "./movie.css";
 
 class moives extends Component {
